@@ -6,7 +6,7 @@
 .sidebar{
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: darkblue;
+    background-color: blue;
     color:white;
     display:grid;
     row-gap: 10px;
@@ -21,4 +21,43 @@ a{
 .side, .settings{
     display:grid;
     grid-auto-rows: 60px;;
+}
+.topbar{
+    display:grid;
+    grid-template-rows:60px 150px;
+    grid-template-columns: 1000px 400px;
+    margin:50px;
+}
+button{
+    background-color: blue;
+    color:white;
+    width:100;
+    margin:25px;
+
+}
+.btns{
+    display:inline-block;
+}
+.main{
+    display:grid;
+    grid-template-columns:700px 600px ;
+    gap:20px;
+    grid-template-rows: 100px 1300px;
+}
+.postbox{
+    
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap:45px;
+    
+}
+
+.post{
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px black;
+}
+.trends{
+    padding-top: 300px;
 }
