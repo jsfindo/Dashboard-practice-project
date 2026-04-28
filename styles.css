@@ -6,8 +6,19 @@
 .sidebar{
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: aqua;
+    background-color: darkblue;
+    color:white;
+    display:grid;
+    row-gap: 10px;
+    padding:10px;
 }
 .main{
     background-color: lightgray;
+}
+a{
+    font-size: 36px;
+}
+.side, .settings{
+    display:grid;
+    grid-auto-rows: 60px;;
 }
